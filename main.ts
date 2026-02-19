@@ -5,11 +5,14 @@
  * This program ...
 */
 
+let perimeter = 2 * (5 + 3);
+let area = 5 * 3;
+
 basic.clearScreen();
 basic.pause(1000);
 basic.showString("A rectangle has dimensions 5cm & 3cm");
 basic.showString("The perimeter would be");
-basic.showString((2 * (5 + 3)).toString());
+basic.showNumber(perimeter);
 basic.showString("the area would be");
-basic.showString((5 * 3).toString());
+basic.showNumber(area);
 basic.showString("cm");
