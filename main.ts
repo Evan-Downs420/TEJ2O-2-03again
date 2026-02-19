@@ -8,7 +8,7 @@
 basic.clearScreen();
 basic.pause(1000);
 
-// Correct Output per instructions
+// Use double quotes and single parentheses
 basic.showString("A rectangle has dimensions 5 cm & 3 cm.");
 
 basic.showString("The perimeter would be: ");
